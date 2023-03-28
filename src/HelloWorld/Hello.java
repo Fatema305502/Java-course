@@ -1,10 +1,12 @@
+package HelloWorld;
+
 import java.util.function.BinaryOperator;
 
 public class Hello
 {
   public static void main(String[] args)
   {
-    System.out.println("Hello, Tim");
+    System.out.println("HelloWorld.Hello, Tim");
     boolean isAlien = false;
     if (isAlien == false){
       System.out.println("It is not an alien");
